@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&family=Outfit:wght@500&display=swap');
+.week-number {
+    margin: 80px 0 -10px 70px;
+    /* color: #c44942; */
+    color: #00ceff;
+    text-shadow: none;
+    font-size: 35px;
+}
+
+.week-number::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #00ceff;
+    position: absolute;
+    margin-top: 9px;
+    left: 35px;
+    background-color: #000000;
+}
+
+.out-problems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 15px;
+}
+
+.problem {
+    margin-top: -100px;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.holder:hover {
+    box-shadow: inset 0px 0px 8px 1px #00ceff;
+    border: 3px solid #00ceff;
+}
+
+.holder .letter {
+    font-size: 40px;
+    border-bottom: 4px solid #3e1815;
+    border-radius: 450%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0 0 6px 0;
+    font-family: 'Irish Grover', cursive;
+    z-index: 1;
+}
+
+.holder img {
+    width: 240px;
+    height: 130px;
+    margin-top: -10px;
+    z-index: -1;
+}
+
+.problem button {
+    display: flex;
+    height: 28px;
+    width: 70px;
+    font-size: 13px;
+    border-radius: 50% 0;
+    height: 50px;
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+    background-color: #000000;
+    transition: 0.2s;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.problem button:hover {
+    box-shadow: inset 0px 0px 8px 1px #00ceff;
+    border: 1.5px solid #00ceff;
+}
+
+.problem-link {
+    top: 170px;
+    left: 191px;
+    transform: rotate(-24deg);
+}
+
+.video-link {
+    top: 180px;
+    left: 205px;
+    transform: rotate(4deg);
+}
+
+.code-link {
+    top: 189px;
+    left: 189px;
+    transform: rotate(29deg);
+}
+
+.pages-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+.pages-bar .page-num {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ccff63;
+    /* box-shadow: inset 0px 0px 8px 1px #00ccff63; */
+    /* background-color: #161313; */
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages-bar .page-num:hover {
+    border: 2px solid #00ccff;
+    box-shadow: inset 0px 0px 11px 0px #00ccff;
+}

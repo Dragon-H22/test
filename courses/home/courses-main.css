@@ -1,0 +1,108 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    margin: 100px 0 40px 0;
+    justify-content: center;
+}
+
+.container .course {
+    border: 2px #ffffff solid;
+    margin: 40px 20px 40px 20px;
+    height: 470px;
+    border-radius: 35px 0;
+    position: relative;
+    color: #ffffff;
+}
+
+.container .course:hover {
+    animation: up-and-down 2s linear infinite;
+}
+
+@keyframes up-and-down {
+    0%,
+    100% {
+        top: 0;
+    }
+    50% {
+        top: -25px;
+    }
+}
+
+.container .course img,
+.container .course .course-title,
+.container .course .level,
+.container .course .price,
+.container .course .status {
+    position: relative;
+}
+
+.container .course img {
+    height: 200px;
+    width: 280px;
+    margin: 3px 3px 3px 3px;
+    border-radius: 20px 0 20px 0;
+    right: -11px;
+    top: 11px;
+}
+
+.container .course .course-title {
+    font-size: 26px;
+    right: -15px;
+    top: 15px;
+    margin: 5px 0;
+}
+
+.container .course .level {
+    font-size: 18px;
+    right: -15px;
+    top: 4px;
+}
+
+.container .course .level p {
+    display: inline-block;
+    color: #00ceff;
+}
+
+.container .course .price {
+    font-size: 18px;
+    right: -15px;
+    top: -26px;
+}
+
+.container .course .price p {
+    display: inline-block;
+    color: #00ceff;
+}
+
+.container .course .status {
+    font-size: 18px;
+    right: -15px;
+    top: -53px;
+}
+
+.container .course .status p {
+    display: inline-block;
+    color: #00ceff;
+}
+
+.container .course button {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 52px;
+    top: 405px;
+    border: 2px #ffffff solid;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container .course button:hover {
+    box-shadow: 5px 5px 5px #00ceff;
+}
