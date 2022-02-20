@@ -68,7 +68,7 @@ details[open]>summary:after {
     padding: 7px 12px;
     margin: 40px 0 0 0;
     transition: 1s;
-    width: fit-content;
+    width: max-content;
 }
 
 .ask:hover {
