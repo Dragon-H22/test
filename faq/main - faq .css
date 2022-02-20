@@ -1,5 +1,5 @@
 .container-question {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,6 +68,7 @@ details[open]>summary:after {
     padding: 7px 12px;
     margin: 40px 0 0 0;
     transition: 1s;
+    width: fit-content;
 }
 
 .ask:hover {

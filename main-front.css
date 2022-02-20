@@ -8,6 +8,8 @@ body {
     margin: 0;
     padding: 0 30px;
     background: #000000;
+    position: relative;
+    min-height: 100vh;
 }
 
 ::-webkit-scrollbar {
@@ -260,6 +262,12 @@ body {
 
 
 /*----------------------------------------------------------------------------------------------*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 60px);
+}
 
 ul {
     display: flex;
