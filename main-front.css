@@ -9,7 +9,7 @@ body {
     padding: 0 30px;
     background: #000000;
     position: relative;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 ::-webkit-scrollbar {
@@ -41,6 +41,11 @@ body {
     height: 47px;
     width: 41px;
     margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+.top img:hover {
+    opacity: 0.7;
 }
 
 .head {
@@ -63,9 +68,9 @@ body {
 
 .separator-line-up {
     background-image: linear-gradient(to right, transparent, #ffffffa9, transparent);
-    background-size: 100%;
+    background-size: 110%;
     background-repeat: no-repeat;
-    height: 2px;
+    height: 3px;
     background-position: center;
 }
 
@@ -184,7 +189,11 @@ body {
     align-items: center;
 }
 
-.mini-description div span {
+.mini-description>div {
+    display: inline-block
+}
+
+.mini-description>div>span {
     /* color: #9ad9eb; */
     margin: 0 8px;
     cursor: pointer;
@@ -198,10 +207,20 @@ body {
     margin: 0 10px;
 }
 
+
+/* .mini-description .right {
+    float: right;
+}
+
+.mini-description .left {
+    float: left;
+} */
+
 .mini-description p {
     display: inline-block;
     font-weight: bold;
     margin: 0;
+    padding: 0;
 }
 
 .mini-description img:hover {
@@ -294,13 +313,13 @@ ul li a:hover {
 
 .separator-line-bottom {
     background-image: linear-gradient(to right, transparent, #ffffffa9, transparent);
-    background-size: 100%;
+    background-size: 110%;
     background-repeat: no-repeat;
-    height: 4px;
+    height: 3px;
     background-position: center;
     position: relative;
     bottom: 0;
-    margin: 20px;
+    margin: 30px 20px 20px 20px;
 }
 
 .foot-bar {
