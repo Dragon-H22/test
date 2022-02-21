@@ -242,7 +242,7 @@ body {
         height: 150px;
     }
     .mini-description {
-        font-size: 20px
+        font-size: 22px
     }
     .space {
         height: 100px;
@@ -284,8 +284,9 @@ body {
 
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: -320px;
     width: calc(100% - 60px);
+    /* margin: 30px 0 0 0; */
 }
 
 ul {
@@ -300,15 +301,20 @@ ul li {
 }
 
 ul li a {
-    margin: 0 8px;
+    margin: 0 12px;
     text-decoration: none;
     color: #ffffff;
     position: relative;
     bottom: 0;
+    /* width: 20px; */
 }
 
 ul li a:hover {
     top: -8px;
+}
+
+svg {
+    size: 20px;
 }
 
 .separator-line-bottom {

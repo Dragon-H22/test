@@ -7,7 +7,7 @@
 
 .contain-main {
     margin: 70px 0 0 0;
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
 }
 
@@ -52,14 +52,14 @@
 .enroll {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .contain-main a {
     text-decoration: none;
     color: #ffffff;
     border: 2px solid #00ceff;
-    padding: 9px 12px 12px 12px;
+    padding: 13px 17px 17px 17px;
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -76,6 +76,10 @@
         height: 310px;
         width: 545px;
     }
+    /* .contain-main>p,
+    .contain-main ol>li {
+        font-size: 22px;
+    } */
 }
 
 @media (min-width: 770px) {
@@ -83,11 +87,19 @@
         height: 370px;
         width: 650px;
     }
+    /* .contain-main>p,
+    .contain-main ol>li {
+        font-size: 25px;
+    } */
 }
 
 @media (min-width: 1040px) {
     .photo img {
-        height: 435px;
-        width: 750px;
+        height: 470px;
+        width: 850px;
     }
+    /* .contain-main>p,
+    .contain-main ol>li {
+        font-size: 30px;
+    } */
 }

@@ -68,7 +68,12 @@ details[open]>summary:after {
     padding: 7px 12px;
     margin: 40px 0 0 0;
     transition: 1s;
-    width: max-content;
+    min-width: 150px;
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
 }
 
 .ask:hover {
