@@ -52,6 +52,7 @@
 .enroll {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .contain-main a {
@@ -72,21 +73,21 @@
 
 @media (max-width: 769px) {
     .photo img {
-        height: 240px;
-        width: 450px;
+        height: 310px;
+        width: 545px;
     }
 }
 
 @media (min-width: 770px) {
     .photo img {
-        height: 310px;
-        width: 590px;
+        height: 370px;
+        width: 650px;
     }
 }
 
 @media (min-width: 1040px) {
     .photo img {
-        height: 400px;
-        width: 700px;
+        height: 435px;
+        width: 750px;
     }
 }
