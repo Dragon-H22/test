@@ -52,6 +52,12 @@
     margin: 5px 0;
 }
 
+.container .course .course-title>div {
+    width: 92%;
+    display: flex;
+    justify-content: center;
+}
+
 .container .course .level {
     font-size: 18px;
     right: -15px;
